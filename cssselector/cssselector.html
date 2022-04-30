@@ -47,18 +47,23 @@
         }
         */
         /* 
-        Khai báo class
+        Command: Tìm tất cả các thẻ với class text là anh em ở phía sau của thẻ div 
+        div ~ .text{
+            color: red; 
+        }
         */
-        .text{
-                
+        input[type=text] {
+            background-color: blue;
+            color: aqua;
+
         }
     </style>
 </head>
 <body>
     <section>
-        <h1>TEST 1</h1>
+        <h1 class="text">TEST 1</h1>
         <div>
-            <p>TEST 2</p>
+            <p class="text">TEST 2</p>
             <p>TEST 3</p>
             <ul>
                 <li>AC</li>
@@ -68,7 +73,9 @@
             </ul>
         </div>
         <p>TEST 4</p>
-        <p>TEST 5</p>
+        <p class="text">TEST 5</p>
+        
     </section>
+    <input type="text" value="button"/>
 </body>
 </html>
